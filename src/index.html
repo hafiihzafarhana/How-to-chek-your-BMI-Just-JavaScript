@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPA 2 | BMI</title>
+    <link rel="stylesheet" href="./../style/style.css">
+</head>
+<body>
+    <section>
+        <h1>Check Your BMI</h1>
+        <p class="p-1">Enter your weight and height below to check your BMI results</p>
+        <form action="">
+            <div class="input-me">
+                <div class="weight">
+                    <label for="berat">Put Your weight in here (KG)</label>
+                    <input type="number" id="berat" name="berat" placeholder="Input weight ...">
+                </div>
+
+                <div class="height">
+                    <label for="tinggi">Put Your height in here (CM)</label>
+                    <input type="number" id="tinggi" name="tinggi" placeholder="Input height ...">
+                </div>
+            </div>
+            <button type="button" id="btn">Calculate BMI</button>
+        </form>
+        <p class="hasil" id="hasil"></p>
+    </section>
+
+    <script src="./../script/app.js"></script>
+</body>
+</html>
